@@ -30,13 +30,13 @@ Cuando no hay más instrucciones para ejecutar el SO devuelve el control al usua
 
 - El Código del simulador es este: 
 
-  - [log.py](./log.py) Se configura un logger, un logger es una herramienta para imprimir texto en pantalla o algun "output" del sistema, como por ejemplo un archivo de texto. 
+  - [log.py](src/log.py) Se configura un logger, un logger es una herramienta para imprimir texto en pantalla o algun "output" del sistema, como por ejemplo un archivo de texto. 
 
-  - [hardware.py](./hardware.py) Emula el Hardware en el que va a correr nuestro Sistema Operativo, Ahí está nuestro __CPU__, __Memoria__ y el pseudo lenguaje __ASM__. El hardware es accessible desde cualquier lugar del S.O. accediendo a la constante llamada __HARDWARE__  
+  - [hardware.py](src/hardware.py) Emula el Hardware en el que va a correr nuestro Sistema Operativo, Ahí está nuestro __CPU__, __Memoria__ y el pseudo lenguaje __ASM__. El hardware es accessible desde cualquier lugar del S.O. accediendo a la constante llamada __HARDWARE__  
 
-  - [so.py](./so.py) Contiene la definicion de __Program__ y un pequeño __Kernel__ (el Kernel es la parte mas importante de un __Sistema Operativo__) 
+  - [so.py](src/so.py) Contiene la definicion de __Program__ y un pequeño __Kernel__ (el Kernel es la parte mas importante de un __Sistema Operativo__) 
 
-  - [main.py](./main.py) inicia nuestro emulador de __Sistema Operativo__
+  - [main.py](src/main.py) inicia nuestro emulador de __Sistema Operativo__
 
 
 
